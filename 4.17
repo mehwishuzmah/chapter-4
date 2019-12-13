@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main(){
+     int n=1,num;
+     int max=0;
+    
+     while(n<=10){
+     	cout<<"enter number"<<n<<"\n";
+     	cin>>num;
+     	if(num>max){
+     	max=num;
+             }
+     	
+     	n++;
+     }
+     		cout<<"largest nmbr is "<<max;
+	 
+	 return 0;
+}
+
