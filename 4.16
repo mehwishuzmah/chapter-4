@@ -1,0 +1,48 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int lap, t;
+	float sp,st_c,prft;
+	float funds=0;
+	
+	float sum=0;
+	int i=41;
+	while(lap!=-1){
+		cout<<"enter laps (enter -1 to quite)\n";
+		cin>>lap;
+		if(lap==-1){
+		cout<<funds;
+		}
+		else{
+		
+		cout<<"enter sponsorship\n";
+		cin>>sp;
+		if(lap<=40){
+		st_c=sp*lap;
+		cout<<"student contributes "<<st_c<<"\n";
+	
+		}
+    	else if(lap>40)
+		{
+		    t=sp*40;
+		
+			while(i<=lap){
+				prft=sp+sp*50/100;
+				sum=sum+prft;
+				i++;
+			}
+			st_c=t+sum;
+			cout<<"student contribution is "<<st_c;
+		}
+		else
+		cout<<"invalid input\n";
+	
+		funds=funds+st_c;
+			lap++;
+	}
+}
+		cout<<"total funds are  "<<funds<<"\n";
+		
+	return 0;
+}
+		
