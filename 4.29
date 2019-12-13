@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int count;
+
+	
+	for(int rows=0;rows<8;rows++){
+		for(int col=0;col<16;col++){
+		if((rows+col)%2==0)
+			cout<<"*";
+			else
+			cout<<" ";
+		}
+			cout<<"\n";
+		
+}
+
+	return 0;
+	} 
