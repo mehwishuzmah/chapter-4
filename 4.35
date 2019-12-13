@@ -1,0 +1,44 @@
+a)
+
+
+#include<iostream>
+using namespace std;
+int main(){
+	int n,f,c;
+	c=1;
+	f=1;
+	
+	cout<<"enter number for factorial";
+	cin>>n;
+	while(c<=n){
+	   f=f*c;
+		c++;
+	}
+	cout<<"the factorial of "<<n<<" is "<<f;
+	return 0;
+}
+
+
+
+
+b)
+#include<iostream>
+using namespace std;
+int main(){
+	float sum,f,n;
+	f=1;
+	n=1;
+	sum=1;
+	int e;
+	cout<<"enter number of terms for summation in e";
+	cin>>e;
+	while(n<e){
+	
+	f=f*n;
+	sum=sum+1/f;
+	n++;
+}
+cout<<"the value of summation values "<<e<<" is "<<sum;
+
+}
+	
