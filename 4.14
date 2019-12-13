@@ -1,0 +1,36 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int n,acount_nmbr;
+	float b_b,charges,credits,limit,n_b;
+	n=1;
+	while(n!=-1){
+		cout<<"enter -1 for quit\n";
+		cin>>n;
+		if(n==-1){
+			cout<<"exit program\n";
+	}
+	else{
+		cout<<"enter acount number\n";
+		cin>>acount_nmbr;
+		cout<<"enter charges\n";
+		cin>>charges;
+		cout<<"enter begning balance\n";
+		cin>>b_b;
+		cout<<"enter credits\n";
+		cin>>credits;
+		cout<<"enter limit \n";
+		cin>>limit;
+		n_b=b_b+charges-credits; 
+		cout<<"your new balnce is "<<n_b<<"\n";
+		if(n_b>limit){
+
+		 cout<<"acount number "<<acount_nmbr<<"\n";
+		 cout<<"limit "<<limit<<"\n";
+		 cout<<"balance "<<n_b<<"\n";
+		 	cout<<"credit limit exceeded \n"; }
+		n++;
+	}	
+	}
+	return 0;
+}
