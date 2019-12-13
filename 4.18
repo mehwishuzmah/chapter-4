@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int n=1;
+		cout<<"N"<<"\t"<<"5*N"<<"\t"<<" 10*N"<<"\t"<<" 15*N"<<"\n";
+	
+	
+	while(n<=12){
+		cout<<n<<"\t";
+		cout<<5*n<<"\t";
+		cout<<10*n<<"\t";
+		cout<<15*n;
+		cout<<"\n";
+		n++;
+	}
+	return 0;
+}
