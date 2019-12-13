@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int n,temp;
+	int decimal=0,b=1,remainder;
+	cout<<"enter binary number";
+	cin>>n;
+	temp=n;
+	while(n>0){
+		remainder=n%10;
+		decimal=decimal+(remainder*b);
+		b=b*2;
+			n=n/10;
+		
+	}
+	
+	cout<<"the decimal equivalent of "<<temp<<"is "<<decimal ;
+	return 0;
