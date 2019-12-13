@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int a,b,c;
+	cout<<"enter 1st sides of triangle";
+	cin>>a;
+	cout<<"enter second side of triangle";
+	cin>>b;
+	cout<<"enter third side of triangle";
+	cin>>c;
+	if(c*c==b*b+a*a||b*b==c*c+a*a||a*a==b*b+c*c)
+	
+	
+		cout<<"its a right angle triangle\n";
+
+	else
+	cout<<"not a right angle triangle";
+
+	return 0;
+}
