@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int i,j,m;
+	cout<<"enter number of rows between 1 and 20";
+	cin>>m;
+	if(m>=1&&m<=20){
+	
+	for(i=1;i<=m;i++){
+		for(j=1;j<=m;j++){
+			if((i==1||i==m))
+			cout<<"*";
+			else{
+				if((j==1||j==m))
+				cout<<"*";
+				else
+				cout<<" ";
+			}
+		}
+		cout<<endl;
+	}
+}
+else
+cout<<"invalid input";
+	return 0;
+}
