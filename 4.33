@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main(){
+	double a,b,c;
+	cout<<"enter 1st sides of triangle";
+	cin>>a;
+	cout<<"enter second side of triangle";
+	cin>>b;
+	cout<<"enter third side of triangle";
+	cin>>c;
+	if(a+b>c&&b+c>a&&c+a>b){
+		cout<<"valid for triangle\n";
+	}
+	else 
+	cout<<"invalid sides for triangle";
+return 0;
+}
