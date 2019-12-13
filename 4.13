@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+main(){
+float km,fuel,kmltr,fuelsum,kmsum,total;
+
+while(km != -1){
+cout<<"Enter KM driven (-1 to quit): ";
+cin>>km;
+if(km==-1)
+cout<<"exit program";
+else{
+cout<<"Enter liter used: ";
+cin>>fuel;
+kmltr=km/fuel;
+cout<<"Kms per liter this trip: "<<kmltr<<endl;
+fuelsum=fuelsum+fuel;
+kmsum=kmsum+km;
+total=kmsum/fuelsum;
+cout<<"Total KMs per liter: "<<total<<endl;
+cout<<"\n";
+}
+}
+
+}
+
