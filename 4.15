@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main(){
+	float  hours,t_l;
+	int n=1;
+	while(n!=-1){
+		cout<<"enter -1 for  quit\n";
+		cin>>n;
+		if(n==-1)
+		{cout<<"program terminated\n";
+		}
+		else{
+		
+		cout<<"enter number of hours worked\n";
+		cin>>hours;
+		t_l=2+hours*10/100;
+		cout<<"accrued leaves are "<<t_l<<" hours"<<"\n";
+		n++;
+	}
+}
+	return 0;
+}
